@@ -1,0 +1,9 @@
+object DataModuleQa: TDataModuleQa
+  OnCreate = DataModuleCreate
+  OnDestroy = DataModuleDestroy
+  OldCreateOrder = False
+  Height = 439
+  HorizontalOffset = 348
+  VerticalOffset = 250
+  Width = 507
+end
