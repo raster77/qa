@@ -21,6 +21,7 @@ Type
     procedure Add(const AIdQuestion: Integer; const AAnswer: string);
     procedure Update(const AId: Integer; const AAnswer: string);
     function GetAnswerByQuestionId(const AQuestionId: Integer): TAnswer;
+    function Count: Integer;
   end;
 
 implementation
@@ -29,6 +30,28 @@ constructor TAnswerRepository.Create(AConnection: TSQLConnection; ATransaction: 
 begin
   FSQLConnection:= AConnection;
   FSQLTransaction:= ATransaction;
+end;
+
+function TAnswerRepository.Count: Integer;
+var
+  SQLQuery: TSQLQuery;
+begin
+  Result:= -1;
+  SQLQuery:= TSQLQuery.Create(nil);
+  try
+    SQLQuery.SQLConnection:= FSQLConnection;
+    SQLQuery.Transaction:= FSQLTransaction;
+
+    with SQLQuery.SQL do
+    begin
+      Text:= 'SELECT count(id) as total FROM answers';
+    end;
+
+    SQLQuery.Open;
+    Result:= SQLQuery.FieldByName('total').AsInteger;
+  finally
+    SQLQuery.Free;
+  end;
 end;
 
 procedure TAnswerRepository.Add(const AIdQuestion: Integer; const AAnswer: string);

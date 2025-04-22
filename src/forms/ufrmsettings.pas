@@ -24,7 +24,6 @@ type
     SpinEditExMinCharsSearch: TSpinEditEx;
     procedure BitBtnOkClick(Sender: TObject);
     procedure Button1Click(Sender: TObject);
-    procedure FormCreate(Sender: TObject);
     procedure FormShow(Sender: TObject);
   private
     FAppParams: TAppParameters;
@@ -62,11 +61,6 @@ begin
     Save;
   end;
   Close;
-end;
-
-procedure TFrmSettings.FormCreate(Sender: TObject);
-begin
-
 end;
 
 procedure TFrmSettings.FormShow(Sender: TObject);

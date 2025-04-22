@@ -8,7 +8,6 @@ object FrmSettings: TFrmSettings
   Caption = 'FrmSettings'
   ClientHeight = 133
   ClientWidth = 263
-  OnCreate = FormCreate
   OnShow = FormShow
   Position = poOwnerFormCenter
   object ChBxDarkTheme: TCheckBox

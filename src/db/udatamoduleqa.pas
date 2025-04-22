@@ -19,9 +19,13 @@ type
     FSQLTransaction: TSQLTransaction;
     DbScript: TStringList;
     Triggers: TStringList;
+    function IsConnected: Boolean;
   public
     function Open(const ADatabase: string): boolean;
     function CreateDb(const ADatabase: string): boolean;
+    function Backup(const ABackupName: string): boolean;
+    function Restore(const ABackupName: string): boolean;
+    property Connected: Boolean read IsConnected;
     property DBConn: TSQLite3Connection read FSQLite3Connection;
     property DefaultTransaction: TSQLTransaction read FSQLTransaction;
   end;
@@ -31,9 +35,34 @@ var
 
 implementation
 
+uses sqlite3backup;
+
 {$R *.lfm}
 
 { TDataModuleQa }
+
+function TDataModuleQa.IsConnected: Boolean;
+begin
+  Result:= FSQLite3Connection.Connected;
+end;
+
+function TDataModuleQa.Backup(const ABackupName: string): boolean;
+var
+  SQLite3Backup: TSQLite3Backup;
+begin
+  SQLite3Backup:= TSQLite3Backup.Create;
+  Result:= SQLite3Backup.Backup(FSQLite3Connection, ABackupName);
+  SQLite3Backup.Free;
+end;
+
+function TDataModuleQa.Restore(const ABackupName: string): boolean;
+var
+  SQLite3Backup: TSQLite3Backup;
+begin
+  SQLite3Backup:= TSQLite3Backup.Create;
+  Result:= SQLite3Backup.Restore(ABackupName, FSQLite3Connection);
+  SQLite3Backup.Free;
+end;
 
 function TDataModuleQa.Open(const ADatabase: string): boolean;
 begin
@@ -41,7 +70,7 @@ begin
   if FileExists(ADatabase) then
   begin
     try
-      FSQLite3Connection.DatabaseName := ADatabase;
+      FSQLite3Connection.DatabaseName:= ADatabase;
       FSQLite3Connection.Open;
       Result := FSQLite3Connection.Connected;
     except
@@ -112,10 +141,10 @@ end;
 
 procedure TDataModuleQa.DataModuleCreate(Sender: TObject);
 begin
-  FSQLite3Connection := TSQLite3Connection.Create(nil);
-  FSQLTransaction := TSQLTransaction.Create(nil);
+  FSQLite3Connection:= TSQLite3Connection.Create(nil);
+  FSQLTransaction:= TSQLTransaction.Create(nil);
 
-  FSQLite3Connection.Transaction := FSQLTransaction;
+  FSQLite3Connection.Transaction:= FSQLTransaction;
   DbScript := TStringList.Create;
   Triggers := TStringList.Create;
   DbScript.Text := 'CREATE TABLE IF NOT EXISTS questions ( ' +

@@ -3,15 +3,16 @@
   <ProjectSession>
     <PathDelim Value="\"/>
     <Version Value="12"/>
-    <BuildModes Active="Release"/>
+    <BuildModes Active="Debug"/>
     <Units>
       <Unit>
         <Filename Value="qa.lpr"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="4"/>
-        <CursorPos X="45" Y="42"/>
-        <UsageCount Value="78"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="14"/>
+        <CursorPos X="27" Y="17"/>
+        <UsageCount Value="102"/>
+        <Loaded Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="src\forms\ufrmmain.lfm"/>
@@ -20,7 +21,7 @@
         <WindowIndex Value="-1"/>
         <TopLine Value="-1"/>
         <CursorPos X="-1" Y="-1"/>
-        <UsageCount Value="41"/>
+        <UsageCount Value="65"/>
         <DefaultSyntaxHighlighter Value="LFM"/>
       </Unit>
       <Unit>
@@ -30,10 +31,9 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="UFrmMain"/>
-        <IsVisibleTab Value="True"/>
-        <TopLine Value="40"/>
-        <CursorPos Y="54"/>
-        <UsageCount Value="41"/>
+        <TopLine Value="160"/>
+        <CursorPos X="10" Y="175"/>
+        <UsageCount Value="65"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
@@ -42,32 +42,36 @@
         <IsPartOfProject Value="True"/>
         <UnitName Value="UAnswerRepository"/>
         <EditorIndex Value="-1"/>
-        <TopLine Value="33"/>
-        <CursorPos Y="40"/>
-        <UsageCount Value="41"/>
+        <TopLine Value="47"/>
+        <CursorPos X="14" Y="24"/>
+        <UsageCount Value="65"/>
       </Unit>
       <Unit>
         <Filename Value="src\repositories\uquestionrepository.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="UQuestionRepository"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="91"/>
-        <CursorPos Y="107"/>
-        <UsageCount Value="41"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="5"/>
+        <TopLine Value="196"/>
+        <CursorPos X="69" Y="208"/>
+        <UsageCount Value="65"/>
+        <Loaded Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="src\repositories\utagrepository.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="UTagRepository"/>
-        <EditorIndex Value="-1"/>
-        <CursorPos X="46" Y="8"/>
-        <UsageCount Value="41"/>
+        <EditorIndex Value="7"/>
+        <TopLine Value="16"/>
+        <CursorPos X="43" Y="42"/>
+        <UsageCount Value="65"/>
+        <Loaded Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="src\db\udatamoduleqa.lfm"/>
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="-1"/>
-        <UsageCount Value="41"/>
+        <UsageCount Value="65"/>
         <DefaultSyntaxHighlighter Value="LFM"/>
       </Unit>
       <Unit>
@@ -78,9 +82,9 @@
         <ResourceBaseClass Value="DataModule"/>
         <UnitName Value="UDataModuleQa"/>
         <EditorIndex Value="-1"/>
-        <TopLine Value="20"/>
-        <CursorPos X="14" Y="23"/>
-        <UsageCount Value="41"/>
+        <TopLine Value="55"/>
+        <CursorPos Y="70"/>
+        <UsageCount Value="65"/>
       </Unit>
       <Unit>
         <Filename Value="src\utils\uappparameters.pas"/>
@@ -88,7 +92,7 @@
         <UnitName Value="UAppParameters"/>
         <EditorIndex Value="-1"/>
         <CursorPos X="24" Y="26"/>
-        <UsageCount Value="41"/>
+        <UsageCount Value="65"/>
       </Unit>
       <Unit>
         <Filename Value="src\models\uanswer.pas"/>
@@ -97,16 +101,17 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="2"/>
         <CursorPos X="69" Y="26"/>
-        <UsageCount Value="40"/>
+        <UsageCount Value="64"/>
       </Unit>
       <Unit>
         <Filename Value="src\models\uquestion.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="UQuestion"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="2"/>
-        <CursorPos X="6"/>
-        <UsageCount Value="40"/>
+        <EditorIndex Value="6"/>
+        <TopLine Value="3"/>
+        <CursorPos X="3" Y="12"/>
+        <UsageCount Value="64"/>
+        <Loaded Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="src\models\uid.pas"/>
@@ -114,16 +119,15 @@
         <UnitName Value="UId"/>
         <EditorIndex Value="-1"/>
         <CursorPos X="5" Y="25"/>
-        <UsageCount Value="40"/>
+        <UsageCount Value="64"/>
       </Unit>
       <Unit>
         <Filename Value="src\models\utag.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="UTag"/>
         <EditorIndex Value="-1"/>
-        <TopLine Value="3"/>
-        <CursorPos X="5" Y="30"/>
-        <UsageCount Value="40"/>
+        <CursorPos X="3" Y="12"/>
+        <UsageCount Value="64"/>
       </Unit>
       <Unit>
         <Filename Value="src\forms\ufrmsettings.pas"/>
@@ -133,9 +137,9 @@
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="UFrmSettings"/>
         <EditorIndex Value="-1"/>
-        <TopLine Value="22"/>
-        <CursorPos X="39" Y="30"/>
-        <UsageCount Value="40"/>
+        <TopLine Value="45"/>
+        <CursorPos Y="27"/>
+        <UsageCount Value="64"/>
       </Unit>
       <Unit>
         <Filename Value="src\forms\ufrmqaedit.pas"/>
@@ -144,10 +148,38 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="UFrmQAEdit"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="143"/>
+        <CursorPos X="16" Y="165"/>
+        <UsageCount Value="54"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="src\forms\ufrminfos.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FrmInfos"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="UFrmInfos"/>
         <EditorIndex Value="-1"/>
-        <TopLine Value="66"/>
-        <CursorPos X="40" Y="79"/>
-        <UsageCount Value="30"/>
+        <TopLine Value="50"/>
+        <CursorPos X="18" Y="75"/>
+        <UsageCount Value="43"/>
+      </Unit>
+      <Unit>
+        <Filename Value="src\forms\ufrmtags.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FrmTags"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="UFrmTags"/>
+        <EditorIndex Value="4"/>
+        <TopLine Value="22"/>
+        <CursorPos Y="36"/>
+        <UsageCount Value="40"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="ufrmmain.pas"/>
@@ -158,7 +190,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="93"/>
         <CursorPos X="5" Y="118"/>
-        <UsageCount Value="56"/>
+        <UsageCount Value="54"/>
       </Unit>
       <Unit>
         <Filename Value="udatamoduleqa.pas"/>
@@ -169,7 +201,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="18"/>
         <CursorPos Y="23"/>
-        <UsageCount Value="56"/>
+        <UsageCount Value="54"/>
       </Unit>
       <Unit>
         <Filename Value="utagrepository.pas"/>
@@ -177,7 +209,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="47"/>
         <CursorPos Y="61"/>
-        <UsageCount Value="56"/>
+        <UsageCount Value="54"/>
       </Unit>
       <Unit>
         <Filename Value="uquestionrepository.pas"/>
@@ -185,7 +217,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="31"/>
         <CursorPos X="58" Y="31"/>
-        <UsageCount Value="50"/>
+        <UsageCount Value="48"/>
       </Unit>
       <Unit>
         <Filename Value="uanswerrepository.pas"/>
@@ -193,7 +225,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="60"/>
         <CursorPos X="19" Y="84"/>
-        <UsageCount Value="49"/>
+        <UsageCount Value="47"/>
       </Unit>
       <Unit>
         <Filename Value="uappparameters.pas"/>
@@ -201,14 +233,14 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="24"/>
         <CursorPos X="13" Y="33"/>
-        <UsageCount Value="42"/>
+        <UsageCount Value="40"/>
       </Unit>
       <Unit>
         <Filename Value="C:\lazarus\fpc\3.2.2\source\rtl\objpas\classes\classesh.inc"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="1980"/>
         <CursorPos X="14" Y="1992"/>
-        <UsageCount Value="7"/>
+        <UsageCount Value="8"/>
       </Unit>
       <Unit>
         <Filename Value="C:\lazarus\components\lazutils\lazutf8.pas"/>
@@ -216,14 +248,14 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="3293"/>
         <CursorPos Y="3307"/>
-        <UsageCount Value="7"/>
+        <UsageCount Value="5"/>
       </Unit>
       <Unit>
         <Filename Value="C:\lazarus\fpc\3.2.2\source\rtl\inc\objpash.inc"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="192"/>
         <CursorPos X="23" Y="206"/>
-        <UsageCount Value="8"/>
+        <UsageCount Value="6"/>
       </Unit>
       <Unit>
         <Filename Value="D:\Apps\lazarus\lcl\grids.pas"/>
@@ -231,19 +263,19 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="1812"/>
         <CursorPos X="14" Y="1824"/>
-        <UsageCount Value="8"/>
+        <UsageCount Value="6"/>
       </Unit>
       <Unit>
         <Filename Value="themes.lrs"/>
         <EditorIndex Value="-1"/>
         <CursorPos X="13" Y="12"/>
-        <UsageCount Value="7"/>
+        <UsageCount Value="5"/>
       </Unit>
       <Unit>
         <Filename Value="C:\lazarus\components\metadarkstyle\examples\customthemes\test.lrs"/>
         <EditorIndex Value="-1"/>
         <CursorPos X="48" Y="2"/>
-        <UsageCount Value="7"/>
+        <UsageCount Value="5"/>
       </Unit>
       <Unit>
         <Filename Value="C:\lazarus\components\metadarkstyle\examples\customthemes\customthemes.lpr"/>
@@ -251,12 +283,12 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="24"/>
         <CursorPos X="10" Y="38"/>
-        <UsageCount Value="7"/>
+        <UsageCount Value="5"/>
       </Unit>
       <Unit>
         <Filename Value="D:\Admin\AppData\Local\Temp\ffaeeea6-7f04-437e-aaf2-429fdda7e4c5_testproject_use_inifilei.zip.4c5\testproject_use_inifile\darkmode_by_ini.lpr"/>
         <EditorIndex Value="-1"/>
-        <UsageCount Value="7"/>
+        <UsageCount Value="5"/>
       </Unit>
       <Unit>
         <Filename Value="C:\lazarus\components\metadarkstyle\src\umetadarkstyle.pas"/>
@@ -264,7 +296,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="14"/>
         <CursorPos X="11" Y="22"/>
-        <UsageCount Value="7"/>
+        <UsageCount Value="5"/>
       </Unit>
       <Unit>
         <Filename Value="C:\lazarus\components\metadarkstyle\src\udarkstyle.pas"/>
@@ -272,7 +304,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="35"/>
         <CursorPos X="23" Y="49"/>
-        <UsageCount Value="7"/>
+        <UsageCount Value="5"/>
       </Unit>
       <Unit>
         <Filename Value="C:\lazarus\components\metadarkstyle\src\uwin32widgetsetdark.pas"/>
@@ -280,7 +312,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="1791"/>
         <CursorPos X="25" Y="1523"/>
-        <UsageCount Value="7"/>
+        <UsageCount Value="5"/>
       </Unit>
       <Unit>
         <Filename Value="D:\Apps\lazarus\lcl\controls.pp"/>
@@ -288,27 +320,27 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="1805"/>
         <CursorPos X="23" Y="1819"/>
-        <UsageCount Value="8"/>
+        <UsageCount Value="6"/>
       </Unit>
       <Unit>
         <Filename Value="D:\Apps\lazarus\fpc\3.2.2\source\rtl\inc\objpash.inc"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="191"/>
         <CursorPos X="23" Y="206"/>
-        <UsageCount Value="7"/>
+        <UsageCount Value="5"/>
       </Unit>
       <Unit>
         <Filename Value="D:\Apps\lazarus\fpc\3.2.2\source\rtl\objpas\fgl.pp"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="1064"/>
         <CursorPos Y="1079"/>
-        <UsageCount Value="8"/>
+        <UsageCount Value="6"/>
       </Unit>
       <Unit>
         <Filename Value="C:\lazarus\components\metadarkstyle\src\registermetadarkstyledsgn.pas"/>
         <UnitName Value="registerMetaDarkStyleDSGN"/>
         <EditorIndex Value="-1"/>
-        <UsageCount Value="9"/>
+        <UsageCount Value="7"/>
       </Unit>
       <Unit>
         <Filename Value="C:\Users\Admin\AppData\Local\lazarus\onlinepackagemanager\packages\Metadarkstyle\src\umetadarkstyle.pas"/>
@@ -316,7 +348,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="11"/>
         <CursorPos X="3" Y="33"/>
-        <UsageCount Value="9"/>
+        <UsageCount Value="7"/>
       </Unit>
       <Unit>
         <Filename Value="C:\Users\Admin\AppData\Local\lazarus\onlinepackagemanager\packages\Metadarkstyle\src\uwin32widgetsetdark.pas"/>
@@ -324,7 +356,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="15"/>
         <CursorPos X="22" Y="42"/>
-        <UsageCount Value="9"/>
+        <UsageCount Value="7"/>
       </Unit>
       <Unit>
         <Filename Value="C:\lazarus\lcl\dialogs.pp"/>
@@ -332,97 +364,177 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="13"/>
         <CursorPos X="3" Y="49"/>
+        <UsageCount Value="8"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\lazarus\fpc\3.2.2\source\packages\fcl-db\src\sqldb\sqlite\sqlite3backup.pas"/>
+        <UnitName Value="SQLite3Backup"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="56"/>
+        <CursorPos X="14" Y="69"/>
+        <UsageCount Value="8"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\lazarus\lcl\lcltype.pp"/>
+        <UnitName Value="LCLType"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="777"/>
+        <CursorPos X="3" Y="792"/>
+        <UsageCount Value="8"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\lazarus\lcl\forms.pp"/>
+        <UnitName Value="Forms"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="832"/>
+        <CursorPos X="17" Y="849"/>
+        <UsageCount Value="9"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\lazarus\fpc\3.2.2\source\rtl\objpas\fgl.pp"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="130"/>
+        <CursorPos X="17" Y="144"/>
+        <UsageCount Value="9"/>
+      </Unit>
+      <Unit>
+        <Filename Value="src\utils\ulistboxutils.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="UListboxUtils"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="16" Y="14"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\lazarus\lcl\stdctrls.pp"/>
+        <UnitName Value="StdCtrls"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="675"/>
+        <CursorPos X="3" Y="690"/>
         <UsageCount Value="10"/>
       </Unit>
     </Units>
-    <JumpHistory HistoryIndex="21">
+    <JumpHistory HistoryIndex="29">
       <Position>
         <Filename Value="src\forms\ufrmmain.pas"/>
-        <Caret Line="257" Column="29" TopLine="231"/>
+        <Caret Line="227" Column="14" TopLine="247"/>
       </Position>
       <Position>
         <Filename Value="src\forms\ufrmmain.pas"/>
-        <Caret Line="258" Column="29" TopLine="232"/>
+        <Caret TopLine="7"/>
       </Position>
       <Position>
         <Filename Value="src\forms\ufrmmain.pas"/>
-        <Caret Line="259" Column="29" TopLine="233"/>
+        <Caret Line="8" Column="79" TopLine="7"/>
+      </Position>
+      <Position>
+        <Filename Value="src\utils\ulistboxutils.pas"/>
+        <Caret Line="22" Column="11"/>
       </Position>
       <Position>
         <Filename Value="src\forms\ufrmmain.pas"/>
-        <Caret Line="266" Column="29" TopLine="240"/>
+        <Caret Line="297" Column="18" TopLine="286"/>
       </Position>
       <Position>
         <Filename Value="src\forms\ufrmmain.pas"/>
-        <Caret Line="212" Column="3" TopLine="210"/>
+        <Caret Line="101" Column="32" TopLine="82"/>
       </Position>
       <Position>
         <Filename Value="src\forms\ufrmmain.pas"/>
-        <Caret Line="259" Column="49" TopLine="256"/>
+        <Caret Line="293" TopLine="289"/>
+      </Position>
+      <Position>
+        <Filename Value="src\forms\ufrmqaedit.pas"/>
+        <Caret Line="223" TopLine="214"/>
+      </Position>
+      <Position>
+        <Filename Value="src\forms\ufrmqaedit.pas"/>
+        <Caret Line="192" Column="3" TopLine="176"/>
+      </Position>
+      <Position>
+        <Filename Value="src\forms\ufrmtags.pas"/>
+        <Caret Line="63" Column="5" TopLine="53"/>
+      </Position>
+      <Position>
+        <Filename Value="src\forms\ufrmtags.pas"/>
+        <Caret Line="141" Column="3" TopLine="125"/>
+      </Position>
+      <Position>
+        <Filename Value="src\forms\ufrmtags.pas"/>
+        <Caret Line="36" Column="24" TopLine="22"/>
+      </Position>
+      <Position>
+        <Filename Value="src\forms\ufrmtags.pas"/>
+        <Caret Line="59" Column="12" TopLine="37"/>
+      </Position>
+      <Position>
+        <Filename Value="src\forms\ufrmtags.pas"/>
+        <Caret Line="36" Column="24" TopLine="23"/>
+      </Position>
+      <Position>
+        <Filename Value="src\forms\ufrmtags.pas"/>
+        <Caret Line="59" Column="36" TopLine="34"/>
+      </Position>
+      <Position>
+        <Filename Value="src\forms\ufrmtags.pas"/>
+        <Caret Line="130" Column="31" TopLine="114"/>
+      </Position>
+      <Position>
+        <Filename Value="src\forms\ufrmtags.pas"/>
+        <Caret Line="36" TopLine="22"/>
+      </Position>
+      <Position>
+        <Filename Value="src\forms\ufrmqaedit.pas"/>
+        <Caret Line="36" TopLine="22"/>
+      </Position>
+      <Position>
+        <Filename Value="src\forms\ufrmtags.pas"/>
+        <Caret Line="59" Column="12" TopLine="47"/>
+      </Position>
+      <Position>
+        <Filename Value="src\forms\ufrmtags.pas"/>
+        <Caret Line="48" Column="39" TopLine="38"/>
+      </Position>
+      <Position>
+        <Filename Value="src\forms\ufrmtags.pas"/>
+        <Caret Line="36" Column="24" TopLine="22"/>
+      </Position>
+      <Position>
+        <Filename Value="src\forms\ufrmtags.pas"/>
+        <Caret Line="59" Column="12" TopLine="34"/>
+      </Position>
+      <Position>
+        <Filename Value="src\forms\ufrmtags.pas"/>
+        <Caret Line="68" Column="29" TopLine="52"/>
+      </Position>
+      <Position>
+        <Filename Value="src\forms\ufrmtags.pas"/>
+        <Caret Line="141" Column="3" TopLine="125"/>
+      </Position>
+      <Position>
+        <Filename Value="src\forms\ufrmtags.pas"/>
+        <Caret Line="36" Column="24" TopLine="11"/>
+      </Position>
+      <Position>
+        <Filename Value="src\forms\ufrmtags.pas"/>
+        <Caret Line="59" Column="35" TopLine="34"/>
+      </Position>
+      <Position>
+        <Filename Value="src\forms\ufrmtags.pas"/>
+        <Caret Line="68" TopLine="55"/>
+      </Position>
+      <Position>
+        <Filename Value="src\forms\ufrmqaedit.pas"/>
+        <Caret Line="31" Column="44" TopLine="22"/>
+      </Position>
+      <Position>
+        <Filename Value="src\forms\ufrmqaedit.pas"/>
+        <Caret Line="165" Column="16" TopLine="143"/>
       </Position>
       <Position>
         <Filename Value="src\forms\ufrmmain.pas"/>
-        <Caret Line="229" Column="34" TopLine="210"/>
-      </Position>
-      <Position>
-        <Filename Value="src\forms\ufrmmain.pas"/>
-        <Caret Line="58" Column="14" TopLine="44"/>
-      </Position>
-      <Position>
-        <Filename Value="src\forms\ufrmmain.pas"/>
-        <Caret Line="104" Column="67" TopLine="79"/>
-      </Position>
-      <Position>
-        <Filename Value="src\forms\ufrmmain.pas"/>
-        <Caret Line="138" Column="12" TopLine="113"/>
-      </Position>
-      <Position>
-        <Filename Value="src\forms\ufrmmain.pas"/>
-        <Caret Line="139" Column="17" TopLine="120"/>
-      </Position>
-      <Position>
-        <Filename Value="src\forms\ufrmmain.pas"/>
-        <Caret Line="167" Column="19" TopLine="145"/>
-      </Position>
-      <Position>
-        <Filename Value="src\forms\ufrmmain.pas"/>
-        <Caret Line="184" Column="24" TopLine="159"/>
-      </Position>
-      <Position>
-        <Filename Value="src\forms\ufrmmain.pas"/>
-        <Caret Line="185" Column="14" TopLine="160"/>
-      </Position>
-      <Position>
-        <Filename Value="src\forms\ufrmmain.pas"/>
-        <Caret Line="229" Column="14" TopLine="204"/>
-      </Position>
-      <Position>
-        <Filename Value="src\forms\ufrmmain.pas"/>
-        <Caret Line="216" Column="20" TopLine="204"/>
-      </Position>
-      <Position>
-        <Filename Value="src\forms\ufrmmain.pas"/>
-        <Caret Line="218" Column="20" TopLine="206"/>
-      </Position>
-      <Position>
-        <Filename Value="src\forms\ufrmmain.pas"/>
-        <Caret Line="228" Column="20" TopLine="206"/>
-      </Position>
-      <Position>
-        <Filename Value="src\forms\ufrmmain.pas"/>
-        <Caret Line="229" Column="20" TopLine="207"/>
-      </Position>
-      <Position>
-        <Filename Value="src\forms\ufrmmain.pas"/>
-        <Caret Line="274" TopLine="274"/>
-      </Position>
-      <Position>
-        <Filename Value="src\forms\ufrmmain.pas"/>
-        <Caret Line="55" TopLine="41"/>
-      </Position>
-      <Position>
-        <Filename Value="src\forms\ufrmmain.pas"/>
-        <Caret Line="54" TopLine="40"/>
+        <Caret Line="175" Column="10" TopLine="160"/>
       </Position>
     </JumpHistory>
     <RunParams>

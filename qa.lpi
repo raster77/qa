@@ -38,7 +38,9 @@
             <Debugging>
               <GenerateDebugInfo Value="False"/>
               <DebugInfoType Value="dsDwarf3"/>
+              <StripSymbols Value="True"/>
             </Debugging>
+            <LinkSmart Value="True"/>
             <Options>
               <Win32>
                 <GraphicApplication Value="True"/>
@@ -159,6 +161,27 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="UFrmQAEdit"/>
+      </Unit>
+      <Unit>
+        <Filename Value="src\forms\ufrminfos.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FrmInfos"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="UFrmInfos"/>
+      </Unit>
+      <Unit>
+        <Filename Value="src\forms\ufrmtags.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FrmTags"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="UFrmTags"/>
+      </Unit>
+      <Unit>
+        <Filename Value="src\utils\ulistboxutils.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="UListboxUtils"/>
       </Unit>
     </Units>
   </ProjectOptions>
